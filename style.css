@@ -1,14 +1,17 @@
 body{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     font-family: sans-serif;
+}
+h1{
+    text-align: center;
 }
 .div-media-parcial{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 .div-av1, .div-av2, .div-av3{
     display: flex;
@@ -26,8 +29,31 @@ body{
     margin-bottom: 20px;
 }
 .div-media-bimestral{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    border-top: solid black 1px;
+}
+.div-parcial-bimestral{
+    border: solid 1px black;
+    border-radius: 9px;
+    width: 50vw;
+}
+.button-calcular{
+    background-color: #044cf4;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 10px #464646;
+}
+#botao-limpar{
+    margin-top: 15px;
+    background-color: red;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px #464646;
 }

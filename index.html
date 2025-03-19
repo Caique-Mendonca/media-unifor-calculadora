@@ -7,8 +7,8 @@
     <title>Calculadora de média da unifor</title>
 </head>
 <body>
-    <div>
-        <h1>Calculadora de média da unifor</h1>
+    <h1>Calculadora de média da unifor</h1>
+    <div class="div-parcial-bimestral">
         <div class="div-media-parcial">
             <h2>Média Parcial</h2>
             <div class="media-parcial-inputs">
@@ -22,7 +22,8 @@
                 </div>
             </div>
             <input type="button" value="Calcular Média Parcial" class="button-calcular" id="botao-media-parcial">
-            <p class="resultado" id="resultado-parcial">dfs\dffnpkw</p>
+            <p class="resultado" id="resultado-parcial"></p>
+            <p class="resultado" id="status-parcial"></p>
         </div>
         <div class="div-media-bimestral">
             <h2>Média Bimestral</h2>
@@ -31,8 +32,11 @@
                 <input type="number" class="input-value" id="input-av3">
             </div>
             <input type="button" value="Calcular Média Bimestral" class="button-calcular" id="botao-media-bimestral">
-            <p class="resultado" id="resultado-bimestral">dfs\dffnpkw</p>
+            <p class="resultado" id="resultado-bimestral"></p>
+            <p class="resultado" id="status-bimestral"></p>
         </div>
     </div>
+    <input type="button" value="Limpar" id="botao-limpar">
 </body>
+<script src="index.js" defer></script>
 </html>
